@@ -1,9 +1,10 @@
-import Button from "@mui/material/Button";
+import { Header, VideoBanner } from "@/components";
 
 export default function Home() {
   return (
     <main>
-      <Button variant="contained">Hello world</Button>
+      <Header />
+      <VideoBanner />
     </main>
   );
 }
