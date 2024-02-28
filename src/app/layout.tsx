@@ -7,6 +7,7 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import theme from "../theme";
+import "../globals.css";
 
 export const metadata: Metadata = {
   title: "DIVD app",
@@ -24,7 +25,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="theme-light">
+      <head>
+        <meta name="theme-color" content="#000000" />
+      </head>
       <body>
         <AppRouterCacheProvider>
           <CssBaseline>

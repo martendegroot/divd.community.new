@@ -11,8 +11,9 @@ export const VideoBanner = () => (
         <div>
           <div
             style={{
-              border: "11px solid white",
-              padding: "0 40px",
+              border: "7px solid white",
+              padding: "0 20px",
+              paddingLeft: "25px",
               borderRadius: "999px",
               float: "left",
             }}
@@ -25,7 +26,7 @@ export const VideoBanner = () => (
             style={{
               fontSize: 40,
               fontWeight: 300,
-              margin: "52px 0 0 15px",
+              margin: "45px 0 0 15px",
               float: "left",
             }}
           >
@@ -34,10 +35,11 @@ export const VideoBanner = () => (
         </div>
         <div
           style={{
-            marginLeft: 55,
-            marginTop: 45,
-            fontSize: "1.35em",
-            fontWeight: 500,
+            marginLeft: 33,
+            marginTop: 40,
+            fontSize: "1.5em",
+            fontWeight: 400,
+            color: "yellow",
           }}
         >
           Stronger together
@@ -46,13 +48,12 @@ export const VideoBanner = () => (
         </div>
         <div
           style={{
-            marginLeft: 55,
-            marginTop: 20,
+            marginLeft: 33,
+            marginTop: 13.5,
           }}
         >
           <Button
             variant="outlined"
-            fullWidth={false}
             style={{ color: "#fff", borderColor: "#fff" }}
             endIcon={<PlayIcon />}
           >
@@ -69,7 +70,6 @@ export const VideoBanner = () => (
     >
       <path
         fill="#ffffff"
-        fill-opacity="1"
         d="M0,192L48,186.7C96,181,192,171,288,176C384,181,480,203,576,197.3C672,192,768,160,864,144C960,128,1056,128,1152,117.3C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
       ></path>
     </svg>
